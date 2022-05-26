@@ -10,4 +10,11 @@ fn main() {
     println!("The value of x is: {}", x);
     println!("The value of y is: {}", y);
     println!("The value of z is: {}", z);
+
+    let a = [1, 2, 3, 4, 5];
+
+    let b = [3; 5];
+
+    println!("The value of a is {}: ", a[0]);
+    println!("The value of b is {}: ", b[4]);
 }
