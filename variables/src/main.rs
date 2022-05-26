@@ -8,4 +8,8 @@ fn main() {
     }
 
     println!("The value of x is: {}", x);
+
+    let x = 2.0;
+
+    let y: f32 = 3.0;
 }
